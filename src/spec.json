@@ -1,0 +1,140 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo navigabile per consultare i consumi degli edifici pubblici, confrontare l’andamento mensile e registrare nuove rilevazioni. Tutti gli edifici e i dati sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica energetica",
+      "description": "Consumi mensili aggregati e indicatori sintetici delle strutture inventate.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.420 kWh"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−4,8%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "12"
+        },
+        {
+          "label": "Rilevazioni da verificare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Consumo (kWh)"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "21.600"
+        ],
+        [
+          "Febbraio",
+          "20.950"
+        ],
+        [
+          "Marzo",
+          "19.880"
+        ],
+        [
+          "Aprile",
+          "18.420"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici monitorati",
+      "description": "Elenco filtrabile delle strutture e dei rispettivi consumi più recenti.",
+      "metrics": [],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo (kWh)",
+        "Mese",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Distretto Vela",
+          "Nord",
+          "2.840",
+          "Aprile",
+          "Verificato"
+        ],
+        [
+          "Scuola Nubi",
+          "Distretto Lumo",
+          "Est",
+          "3.120",
+          "Aprile",
+          "Verificato"
+        ],
+        [
+          "Biblioteca Vela",
+          "Distretto Nubi",
+          "Centro",
+          "1.760",
+          "Aprile",
+          "Da verificare"
+        ],
+        [
+          "Centro Arco",
+          "Distretto Vela",
+          "Sud",
+          "2.290",
+          "Aprile",
+          "Verificato"
+        ],
+        [
+          "Archivio Timo",
+          "Distretto Lumo",
+          "Nord",
+          "1.430",
+          "Aprile",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo (kWh)",
+        "Mese",
+        "Stato"
+      ]
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Nuova rilevazione",
+      "description": "Registra una rilevazione mensile per un edificio inventato.",
+      "metrics": [],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo (kWh)",
+        "Mese",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo (kWh)",
+        "Mese",
+        "Stato"
+      ]
+    }
+  ]
+}
